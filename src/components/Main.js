@@ -1,30 +1,3 @@
-// const downloadButtonCSV = () => {
-//     const contact = ("../images/contacts.csv");
-//     const file = new Blob(contact, {type: 'text/plain'});
-//     const element = document.createElement("a");
-//     element.href = URL.createObjectURL(file);
-//     element.download = "Marian Lippold.csv";
-//     document.body.appendChild(element);
-//     element.click();
-// } 
-// 
-
-// const downloadButtonCSV = () => {
-//     const blob = new Blob([output]);
-//     const fileDownloadUrl = URL.createObjectURL(blob);
-//     this.setState ({fileDownloadUrl: fileDownloadUrl},
-//         () => {
-//             this.dofileDownload.click();
-//             URL.revokeObjectURL(fileDownloadUrl);
-//             this.setState({fileDownloadUrl: ""})
-//         })
-// }
-
-//             <a style={{display: "none"}}
-//              download={this.fileNames[this.state.fileType]}
-//              href={this.state.fileDownloadUrl}
-//              ref={e=>this.dofileDownload = e}
-//              >download it</a>
 function Main() {
     return (
         <div className="main">
